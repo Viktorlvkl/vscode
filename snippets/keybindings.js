@@ -12,7 +12,7 @@
     "command": "editor.action.insertSnippet",
     "when": "editorTextFocus",
     "args": {
-      "snippet": "console.log(${TM_SELECTED_TEXT}$1)$0;"
+      "snippet": "console.log(' ${TM_SELECTED_TEXT}$1 => ',${TM_SELECTED_TEXT}$1)$0;"
     }
   },
   {
